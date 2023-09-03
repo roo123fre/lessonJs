@@ -56,3 +56,39 @@ alert(description);
 
 // const years = prompt('Тобі є 18 років ?')
 // console.log(years);
+
+
+// const valueA = "5";
+// console.log(Number(valueA));
+// console.log(typeof Number(valueA));
+
+// const valueB = "random string";
+// console.log(Number(valueB));
+// console.log(typeof Number(valueB));
+
+// Методи Number.parseInt() і Number.parseFloat()
+
+//Метод Number.parseInt() парсить з рядка ціле число
+
+// console.log(Number.parseInt("10px"))
+// console.log(Number.parseInt("12wer43"))
+// console.log(Number.parseInt("12.46qwe79"))
+// console.log(Number.parseInt("weww"))
+
+// //Метод Number.parseFloat() парсить з рядка дробове число
+
+// console.log(Number.parseFloat("10px"))
+// console.log(Number.parseFloat("12wer43"))
+// console.log(Number.parseFloat("12.46qwe79"))
+// console.log(Number.parseFloat("weww"))
+
+// //перевірка на число
+
+// const validNum = Number("51");
+// console.log(Number.isNaN(validNum));
+
+// const invalidNum = Number("wewer");
+// console.log(Number.isNaN(invalidNum));
+
+const randomNum = Math.round(Math.random() * (10 - 1) + 1);
+console.log(randomNum);
